@@ -2,7 +2,7 @@ var S = {
                 init: function () {
                     S.Drawing.init('.canvas');
                     document.body.classList.add('body--ready');
-                    S.UI.simulate("I'm|凡|凡|hi|#countdown 3");	//内容这里修改				
+                    S.UI.simulate("I'm|凡|凡|#countdown 3");	//内容这里修改				
                     S.Drawing.loop(function () {
                         S.Shape.render();
 						
